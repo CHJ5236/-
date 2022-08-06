@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+	char c;
+	c = getput();
+	while ((getput()) != EOF)
+	{
+		printf("%c", c);
+	}
+}

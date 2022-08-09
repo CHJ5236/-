@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main()
+{
+	int age;
+	scanf("&d", age);
+	if (age < 18)
+	{
+		printf("未成年");
+	}
+	else if (age >= 18 && age <= 28)
+	{
+		printf("中年");
+	}
+	else if (age>=28&&age<=50)
+	{
+		printf("老年");
+	}
+	else
+	{
+		printf("老老年");
+	}
+}

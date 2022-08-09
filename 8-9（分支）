@@ -1,22 +1,24 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 int main()
 {
-	int age;
-	scanf("&d", age);
-	if (age < 18)
+	int a;
+	scanf("&d",&a);
+	if (a < 18)
 	{
-		printf("未成年");
+		printf("未成年\n");
 	}
-	else if (age >= 18 && age <= 28)
+	else if (a >= 18 && a<= 28)
 	{
-		printf("中年");
+		printf("中年\n");
 	}
-	else if (age>=28&&age<=50)
+	else if (a>=28&&a<=50)
 	{
-		printf("老年");
+		printf("老年\n");
 	}
 	else
 	{
-		printf("老老年");
+		printf("老老年\n");
 	}
+	return 0;
 }
